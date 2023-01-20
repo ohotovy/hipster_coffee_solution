@@ -11,12 +11,11 @@
 		width: 100%;
 		background-color: rgba($black, 0.03);
 		display: flex;
-		@media (max-width: 900px) {
-		  flex-direction: column;
-		}
+		flex-direction: column;
 
 		&__gen {
 			margin-bottom: 2rem;
+			background-color: #f8f9fa;
 			@media (min-width: $medium) {
 			  width: 48%;
 			}
